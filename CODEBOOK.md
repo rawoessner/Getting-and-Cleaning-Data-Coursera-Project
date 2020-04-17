@@ -3,17 +3,29 @@ Code Book:
 Variable Names  
 ==============
 test_data - X_test.txt
+
 train_dta - X_train.txt
+
 features - features.txt
+
 total_data - row combination of test_data and train_data with fetures as column names
+
 test_subject - subject_test.txt
+
 train_subject - subject_train.txt
+
 subject - row combination of test_subject and train_subject
+
 test_activity - y_test.txt
+
 train_activity - y_train.txt
+
 activity - row combination of test_activity and train activity
+
 total_data - column combination of subject, activity and original total-data
+
 mean_std_data - extrated dataset from total data of suject, activity and columns with mean and std in names
+
 grouped.df - grouped data frame of mean_st_data where data is grouped by subject first, then actvitiy
 
 
